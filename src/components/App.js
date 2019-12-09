@@ -1,12 +1,16 @@
-import React from 'react';
+import React from "react";
 
-import Header from './elements/Header';
+import Header from "./elements/Header";
+import Home from "./Home";
 
-const App = () => <div><Header />Start Here!</div>;
+const App = () => (
+  <div>
+    <Header />
+    <Home />
+  </div>
+);
 
 export default App;
-
-
 
 // 1. JSX is syntactic sugar for React.createElement
 // 2. JSX is selfclosing
@@ -14,5 +18,3 @@ export default App;
 // 4. You can use JS expressions inside of JSX w/ {}
 // 5. You can nest components just like you can in HTML
 // 6. Nested content can be accessed in props.children
-
-

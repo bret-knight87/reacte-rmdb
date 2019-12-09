@@ -1,5 +1,5 @@
 import React from 'react';
 
-const LoadMoreBtn = () => <div>LoadMoreBtn</div>
+const LoadMoreBtn = () => <div>Load More Button</div>
 
 export default LoadMoreBtn;
